@@ -21,15 +21,17 @@ class _NavBarState extends State<NavBar> {
   }
 
   Widget mobileNavBar() {
-    return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 20),
-      height: 70,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          const Icon(Icons.menu),
-          navLogo(),
-        ],
+    return SafeArea(
+      child: Container(
+        margin: const EdgeInsets.symmetric(horizontal: 20),
+        height: 70,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            const Icon(Icons.menu),
+            navLogo(),
+          ],
+        ),
       ),
     );
   }

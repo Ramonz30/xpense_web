@@ -19,7 +19,7 @@ class _Container1State extends State<Container1> {
     );
   }
 
-  //-----MOBILE------
+  //-----------MOBILE----------
 
   Widget mobileContainer1() {
     return Container(
@@ -90,7 +90,7 @@ class _Container1State extends State<Container1> {
     );
   }
 
-  //-----DESKTOP------
+  //----------DESKTOP--------------
 
   Widget desktopContainer1() {
     return Container(
