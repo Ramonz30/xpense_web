@@ -18,7 +18,9 @@ class _HomeState extends State<Home> {
       body: SingleChildScrollView(
         child: Container(
           child: const Column(
-            children: [NavBar()],
+            children: [
+              NavBar(),
+            ],
           ),
         ),
       ),
