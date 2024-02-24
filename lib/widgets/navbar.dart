@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:xpense_flutter_web/utils/colors.dart';
+import 'package:xpense_flutter_web/utils/constants.dart';
 import 'package:xpense_flutter_web/utils/style.dart';
 
 class NavBar extends StatefulWidget {
@@ -91,7 +92,7 @@ class _NavBarState extends State<NavBar> {
       width: 100,
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/logo.png'),
+          image: AssetImage(logo),
         ),
       ),
     );
